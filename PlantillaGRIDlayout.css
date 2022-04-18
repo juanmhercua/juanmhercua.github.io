@@ -8,8 +8,8 @@
     grid-template-areas: "head head head"
                          "nav section aside"
                          "nav foot aside";
-    grid-template-rows: 15% 1fr 10%;
-    grid-template-columns: 15% 1fr 15%;
+    grid-template-rows: 200px 1fr 200px;
+    grid-template-columns: 200px 1fr 200px;
   }
   
   #pagina > header {
