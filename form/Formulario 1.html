@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="formulario" content="formulario">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="Juan Miguel Hernández Cuadrado">
+<title>Formularios</title>
+<style>
+
+
+</style>
+</head>
+<body>
+
+<form>
+	<fieldset>
+	<legend>Rellenar</legend>
+		
+		
+		<input type="radio" id="ingles" name="no_se_1" value="ingles">
+		<label for="ingles">Inglés</label>
+			<br>
+		<input type="radio" id="aleman" name="no_se_2" value="aleman">
+		<label for="aleman">Alemán</label>
+			<br>
+		<input type="radio" id="frances" name="no_se_3" value="frances">
+		<label for="frances">Francés</label>
+			<br>
+			
+		<select id="selec" name="selec">
+			<option value="USB">USB</option>
+			<option value="USB">Thunderbolt</option>
+		</select>
+			<br>
+		
+		<label for="nombre">Nombre</label>
+		<input type="text" id="nombre">
+			<br>
+		<label for="apellidos">Apellidos</label>
+		<input type="text" id="apellidos">
+	
+	</fieldset>
+</form>
+
+<form>
+	<fieldset>
+	<legend>Indique sus preferencias por favor</legend>
+	
+	<select name="lista" size="2">
+		<option>Hombre</option>
+		<option>Mujer</option>
+	</select>
+	
+		<br>
+	
+	<input type="checkbox" id="Mujer" name="mujer" value="Mujer">
+	<label for="Mujer">Mujer</label>
+		<br>
+	<input type="checkbox" id="Hombre" name="hombre" value="Hombre">
+	<label for="Hombre">Hombre</label>
+		<br>
+	
+	<label for="elegir">Elija una fecha: </label>
+	<input type="text" id="elegir" name="elegir" value="dd/mm/aaaa">
+	
+	</fieldset>
+	<input type="submit">
+</form>
+
+</body>
+</html>

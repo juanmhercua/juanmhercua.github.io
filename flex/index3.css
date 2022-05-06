@@ -1,0 +1,65 @@
+* {
+    margin: 0%;
+}
+
+header{
+    background-color: lightblue;
+    text-align: center;
+}
+nav{
+    background-color: lightcoral;
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.container section{
+    background-color: lightsalmon;
+    padding: 1%;
+    width: 64%;
+    text-align: center;
+}
+aside{
+    background-color: lightgreen;
+    padding: 1%;
+    width: 15%;
+    height: auto;
+    border: 1px solid blac;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.container2 {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:center;
+}
+.container2 div{
+    padding: 4%;
+    width: 5%;
+    margin: 1%;
+    background-color: green;
+    border: 3px solid black;
+}
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container3 a{
+    padding: 1%;
+    margin: 1%;
+    width: 5%;
+    background-color: black;
+    color: white;
+    
+}
+a:hover{
+    background-color: blue;
+}
+a:active{
+    background-color: aqua;
+}

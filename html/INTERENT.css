@@ -1,0 +1,25 @@
+body{
+    background-image: url(internet.jpg);
+    background-repeat: repeat-y;
+    background-attachment: scroll;
+}
+
+h1{
+    color: aquamarine;
+    border: dashed;
+}
+
+h3{
+    color:snow;
+    border: dotted;
+}
+
+p{
+    color: red;
+    border: double;
+}
+
+li{
+    color: slateblue;
+    border:outset;
+}

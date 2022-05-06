@@ -1,0 +1,78 @@
+body{
+    background-color: darkkhaki;
+    
+}
+
+header{
+    text-align: right;
+}
+
+h1.cabecera{
+    background-color: fuchsia;
+}
+
+nav{
+    
+}
+
+section{
+    text-align: right;
+}
+
+article{
+    text-align: right;
+}
+
+article.primero{
+    background-color: white;
+}
+
+article.segundo{
+    background-color: white;
+}
+
+h2{
+
+}
+
+h2.primero{
+    background-image:url(internet.jpg)
+}
+
+h2.segundo{
+    background-image: url(guerra.jpg);
+}
+
+p{
+
+}
+
+p.primero{
+    background-color: gold;
+}
+
+p.segundo{
+    background-color: forestgreen;
+}
+
+aside{
+
+}
+
+footer{
+
+}
+
+h3{
+
+}
+
+h3.primero{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 49;
+}
+
+p.tercero{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20;
+}

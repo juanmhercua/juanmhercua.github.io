@@ -1,0 +1,20 @@
+body{
+    background-image: url(guerra.jpg);
+    
+}
+h1{
+    background-color: white;
+}
+h3{
+    background-color: red;
+}
+p{
+    background-color: black;
+    color: white;
+}
+ul{
+    background-color: firebrick;
+}
+li{
+    background-color: yellow;
+}

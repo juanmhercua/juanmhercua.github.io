@@ -1,0 +1,72 @@
+body{
+    background-color: darkseagreen;
+}
+
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40;
+}
+
+h1.cabecera{
+    color: blueviolet;
+}
+
+nav{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}
+
+section{
+    font-weight: 1000;
+}
+
+article{
+    
+}
+
+article.primero{
+    text-align: right;
+}
+
+article.segundo{
+    text-align: center;
+}
+
+h2{   
+}
+
+h2.primero{
+    color: dimgrey;
+}
+
+h2.segundo{
+    color: pink;
+}
+
+p{
+}
+
+p.primero{
+    color: aqua;
+}
+
+p.segundo{
+    color:darkgreen;
+}
+
+aside{
+}
+footer{
+    border: dotted;
+}
+
+h3{
+}
+
+h3.primero{
+    color: tomato;
+}
+
+p.tercero{
+    color:crimson;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="formulario" content="formulario">
+<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+<meta name="author" content="Juan Miguel Hernández Cuadrado">
+<title>Formularios</title>
+<style>
+
+
+</style>
+</head>
+<body>
+
+<form>
+<fieldset>
+<legend>Completar</legend>
+
+	<label for="hora">Introduce una hora: </label>
+	<input type="time" id="hora" value="hora">
+	<br>
+	
+	<label for="color">Elije un color: </label>
+	<input type="color" id="color">
+	<br>
+
+	<input type="checkbox" id="Hombre" value="Hombre">
+	<label for="Hombre">Hombre</label>
+	<br>
+	<input type="checkbox" id="Mujer" value="Mujer">
+	<label for="Mujer">Mujer</label>	
+	<br>
+	
+	</fieldset>
+	<fieldset>
+	<legend>Completar</legend>
+	
+	<label for="time">Introduce una hora: </label>
+	<input type="time" id="time" value="time">
+	<br>
+	
+	<input type="radio" id="JPG" value="JPG">
+	<label for="JPG">JPG</label>
+	<br>
+	<input type="radio" id="PNG" value="PNG">
+	<label for="PNG">PNG</label>
+	<br>
+	<textarea cols="30" rows="10">Inserte aquí el texto</textarea>
+	
+	<br>
+	
+	<select>
+		<option>Español</option>
+		<option>Inglés</option>
+	</select>
+	<br>
+	<input type="submit">
+</fieldset>
+</form>
+
+</body>
+</html>

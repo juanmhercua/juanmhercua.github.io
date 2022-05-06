@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="examen" content="HTML, CSS">
+<meta name="author" content="Juan Miguel Hernandez Cuadrado">
+<html lang="es">
+<head>
+<style>
+	table, th, td {
+		border: 1px solid black
+		}
+</style>
+</head>
+<body>
+	<h1>Música Folk</h1>
+	<h2>Highway 61 Revisted</h2>
+	<p>Bob Dylan</p>
+	<p><strong>Bruce Springsteen</strong> ha descrito el principio de Like a Rolling Stone, 
+	el tema que abre el disco de Dylan Highway 61 Revisited, como "un golpe seco, como si alguien hubiera 
+	abierto de una patada la puerta de tu mente". El cantante folk <strong>Phil Ochs</strong> definió Highway 61 Revisited de forma poética. "Es imposiblemente bueno.¿Cómo puede hacer esto una mente humana?", dijo.</p>
+
+	<h2>Astral Weeks</h2>
+	<p>Vam Morrison</p>
+	<p>La música de Astral Weeks posee una belleza tan enigmática que 35 años después de su edición, aún se resiste a cualquier definición simple y admirativa.</p>
+
+	<h2>Blood on the tracks</h2>
+	<p>Bob Dylan</p>
+	<blockquote>Dylan presentó una vez el primer tema de este disco. <em>Tangled Up in the Blue</em>, diciendo que le había llevado diez años vivirlo y dos componerlo. Se refería a la crisis personal (la ruptura de su matrimonio con <strong>Sara Lowndes</strong>) que, en parte, inspiró este álbum en el mejor de los suyos en los 70
+	</blockquote>
+	<br><br><br>
+
+	<!--- Sengo ejercicio --->
+
+	<ul>
+		<li><a href="https://www.google.es">Página 1</a></li>
+		<li><a href="https://www.icasal.com">Página 2</a></li>
+		<li><a href="https://www.youtube.es">Página 3</a></li>
+	</ul>
+	<ul>
+		<li><a href="#video">Video de Youtube</a></li>
+		<li><a href="#imagen">imagen</a></li>
+		<li><a href="#audio">Podcast</a></li>
+		<li><a href="#iframe">Video iframe</a></li>
+	</ul>
+	<br>
+
+	<h1>Contenido a trabajar</h1>
+	<h2>Video de youtube</h2>
+	<video controls id="video" width="250px" height="250px">
+		<source src="video.mp4" type="video/mp4" id="video">
+		video
+	</video>
+	<br>
+	
+	<h2>Imagen</h2>
+	<img src="imagen.jpg" alt="imagen" id="imagen">
+	<br>
+	
+	<h2>Podcast</h2>
+	<audio controls id="audio">
+		<source src="audio.mp3" type="audio/mp3">
+		audio
+	</audio>
+	<br>
+
+	<h2>Video</h2>
+	<iframe id="iframe" width="894" height="503" src="https://www.youtube.com/embed/3CZCV5-HVRg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+	<br><br><br>
+	<!--- Tercer ejercicio --->
+	
+	<table>
+		<tr>
+			<td><strong>Categoria</strong></td>
+			<td><strong>Etiquetas</strong></td>
+		</tr>
+		<tr>
+			<td rowspan="5"><center><strong>Formulario</strong></center></td>
+			<td>form</td>
+			
+		</tr>
+		<tr>
+			<td>button</td>
+		</tr>
+		<tr>
+			<td>input</td>
+		</tr>
+		<tr>
+			<td>select</td>
+		</tr>
+		<tr>
+			<td>textarea</td>
+		</tr>
+		<tr>
+			<td rowspan="5"><center><strong>Tabla</strong></center></td>
+			<td>tabla</td>
+		</tr>
+		<tr>
+			<td>tr</td>
+		</tr>
+		<tr>
+			<td>th</td>
+		</tr>
+		<tr>
+			<td>td</td>
+		</tr>
+		<tr>
+			<td>caption</td>
+		</tr>
+		<tr>
+			<td rowspan="6"><center><strong>Texto</strong></center></td>
+			<td>b</td>
+		</tr>
+		<tr>
+			<td>em</td>
+		</tr>
+		<tr>
+			<td>i</td>
+		</tr>
+		<tr>
+			<td>strong</td>
+		</tr>
+		<tr>
+			<td>sub</td>
+		</tr>
+		<tr>
+			<td>sup</td>
+		</tr>
+	</table>
+	
+	<br><br><br>
+	<!--- Cuarto ejercicio --->
+	
+	<h1>Ejercicio3</h1>
+	<form>
+	<fieldset>
+	<legend>Datos personales</legend>
+	
+		<label for="nombre">Nombre</label>
+		<input type="text" name="nombre" id="nombre">
+		<br><br>
+		<label>Apellidos</label>
+		<input type="text" name="apellidos" id="apellidos">
+		
+	</fieldset>
+	<fieldset>
+	<legend>Completa la información</legend>
+	
+		<label for="telefono">Telefono</label>
+		<input type="text" name="telefono" id="telefono">
+		<br><br>
+		<label for="tiempo">Fecha y Hora</label>
+		<input type="date" name="tiempo" id="tiempo">
+		<input type="time" name="tiempo" id="tiempo">
+		
+		<br>
+		<label for="rango">Rango</label>
+		<input type="range" name="rango" id="rango">
+		<br>
+
+		<label for="color">Color</label>
+		<input type="color" name="color" id="color">
+		<br><br>
+		
+		<input type="file" name="file">
+		<br><br>
+		
+		<label for="hombre">Sexo</label><br>
+		<input type="radio" name="sexo" id="hombre" value="hombre">
+		<label for="hombre">Hombre</label>
+		<br>
+		<input type="radio" name="sexo" id="mujer" value="mujer">
+		<label for="mujer">Mujer</label>
+		<br>
+		<br>
+		
+		Dispositivos electrónicos<br>
+		<input type="checkbox" name="dispositivo" id="pc" value="pc">
+		<label for="pc">PC</label>
+		<br>
+		<input type="checkbox" name="dispositivo" id="tableta" value="tableta">
+		<label for="tableta">Tableta</label>
+		<br>
+		<input type="checkbox" name="dispositivo" id="movil" value="movil">
+		<label for="movil">Movil</label>
+		<br>
+		<br>
+		
+		<label for="marca">Elija una marca: </label>
+		<select name="marca" id="marca">
+			<option>Volvo</option>
+		</select>		
+		
+	</fieldset>
+		<input type="submit">
+		<input type="delete">
+	</form>
+
+		
+
+</body>
+</html>

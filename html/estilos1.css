@@ -1,0 +1,79 @@
+body{
+    background-color: darkgrey;
+}
+
+header{
+    text-align: center;
+    background-image: url("windows11.PNG");
+}
+
+h1.cabecera{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav{
+    
+}
+
+section{
+    
+}
+
+article{
+
+}
+
+article.primero{
+    text-align: center;
+    background-color: darkturquoise;
+}
+
+article.segundo{
+    text-align: center;
+    background-color: forestgreen;
+}
+
+h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h2.primero{
+
+}
+
+h2.segundo{
+
+}
+
+p{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+p.primero{
+
+}
+
+p.segundo{
+
+}
+
+aside{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: darkslategray;
+}
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3.primero{
+
+}
+
+p.tercero{
+
+}

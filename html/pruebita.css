@@ -1,0 +1,11 @@
+section{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+    align-items: stretch;
+}
+section article{
+    margin: 2%;
+    padding: 2%;
+    background-color:aquamarine;
+}
