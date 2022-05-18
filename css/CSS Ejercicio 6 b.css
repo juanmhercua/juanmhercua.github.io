@@ -1,0 +1,12 @@
+nav{
+    text-align: center;
+    background-color: turquoise;
+}
+a:hover{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    width: 100%;
+    padding-left: 46%;
+    padding-right: 46%;
+}

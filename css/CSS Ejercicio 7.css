@@ -1,0 +1,67 @@
+body{
+    background-color: darkgray;
+}
+header{
+    background-color: aquamarine;
+    text-align: center;
+}
+section{
+    display: flex;
+    
+}
+section.uno > article{ 
+    background-color: aqua;
+    font-size: 20px;
+}
+section.dos > article{ 
+background-color:turquoise;
+font-size: 20px;
+}
+
+footer{
+    background-color: cornflowerblue;
+    font-size: 20px;
+}
+
+
+
+aside.uno{
+    background-color: sandybrown;
+    font-size: 20px;
+}
+aside.dos{
+    background-color:tomato;
+    font-size: 20px;
+}
+
+
+
+.flex-container {
+    display: flex;
+    height: 600px;
+
+  }
+.flex-container2 {
+  display: flex;
+  height: 600px;
+}
+.flex-container2 article{
+   margin: 10px;
+   padding: 10px;
+   height: 100%;
+ }
+.flex-container > div {
+
+  color: white;
+  margin: 10px;
+  height: 100%;
+  text-align: center;
+}
+.flex-container footer {
+
+    color: white;
+    margin: 10px;
+    height: 100px;
+    text-align: center;
+}
+

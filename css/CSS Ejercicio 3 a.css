@@ -1,0 +1,46 @@
+header{
+    background-color: darkgray;
+}
+h1{
+    text-align: center;
+    color: deepskyblue;
+}
+nav{
+    background-color: white;
+}
+h2{
+    text-align: center;
+    color: turquoise;
+}
+
+/*section.opcion1{
+    background-color: wheat;
+}
+*/
+
+section:nth-child(odd){
+    /*Para los impares*/
+    background-color: wheat;
+}
+section:nth-child(even){
+    /*Para los pares*/
+    background-color: white;
+}
+
+h3{
+    color: white;
+    background-color: black;
+    letter-spacing: 5px;
+}
+h4{
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/*section.opcion2{
+    background-color: white;
+
+}
+*/
+#color_rojo{
+    color: tomato;
+}

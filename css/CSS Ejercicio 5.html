@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <link rel='stylesheet' type='text/css' media='screen' href='CSS Ejercicio 5.css'>
+</head>
+<body>
+    <form>
+        <h1>Formulario de Matriculación</h1>
+        <hr>
+
+        <br>
+        
+        <label for="nombre" class="nombre">Nombre</label>	
+        <input type="text" id="nombre">
+        <br>
+        <br>
+        <label for="nombre" class="nombre">Nombre</label>	
+        <input type="text" id="nombre">
+        <br>
+        <br>
+        <label for="contrasena" class="nombre">Contraseña</label>	
+        <input type="text" id="contrasena">
+
+	    <h2>Etapa educativa</h2>
+
+        <fieldset>
+            <legend>Seleccione una sola opción</legend>	
+            <input type="radio" id="primaria" class="margen" name="lista1">
+            <label for="primaria">Primaria (12€)</label>
+            <br>
+            <input type="radio" id="secundaria" class="margen" name="lista1">
+            <label for="secundaria">Secundaria (30€)</label>
+            <br>
+            <input type="radio" id="fpgm" class="margen" name="lista1">
+            <label for="fpgm">Formacion profesional de grado medio (30€)</label>
+            <br>
+            <input type="radio" id="bachillerato" class="margen" name="lista1">
+            <label for="bachillerato">Bachillerato (50€)</label>
+            <br>
+            <input type="radio" id="fpgs" class="margen" name="lista1">
+            <label for="fpgs">Formacion Profesional de grado superior (40€)</label>
+            <br>
+            <input type="radio" id="eugm" class="margen" name="lista1">
+            <label for="eugm">Estudios Universitarios de grado medio (700€)</label>
+            <br>
+            <input type="radio" id="eugs" class="margen" name="lista1">
+            <label for="eugs">Estudios Universitarios de grado superior (900€)</label>
+        </fieldset>
+
+        <h2>Otras opciones</h2>
+
+        <fieldset>
+            <legend>Seleccione las opciones pertinentes</legend>
+            <input type="checkbox" id="numerosa" class="margen">
+            <label for="numerosa">Familia numerosa (20%)</label>
+            <br>
+            <input type="checkbox" id="minusvalia" class="margen">
+            <label for="minusvalia">Minusvalia (50%)</label>
+            <br>
+            <input type="checkbox" id="mayor" class="margen">
+            <label for="mayor">Mayor de 30 años (10%)</label> 
+        </fieldset>
+        <br>
+        <input type="submit" value="Calcular" id="enviar">
+
+    </form>
+</body>
+</html>

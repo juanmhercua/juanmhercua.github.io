@@ -1,0 +1,11 @@
+nav{
+    background-color:cadetblue;
+    text-align: center;
+    padding: 10px 25px;
+}
+a:hover{
+    background-color: darkblue;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}

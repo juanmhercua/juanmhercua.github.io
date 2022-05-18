@@ -1,0 +1,61 @@
+
+
+/*
+section:nth-of-type(odd){
+    display: inline-block;
+    background-color:burlywood;
+}
+*/
+
+section.primero > ul:nth-of-type(odd){
+    list-style-position: outside;
+    padding: 5px;
+    margin-left: 35px;
+   /* display: inline-block;*/
+    background-color:burlywood;
+}
+
+h1{
+text-align: center;
+font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#espana{
+    color: wheat;
+    font-size: 20px;
+}
+h2{
+    color: cadetblue;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+footer{
+    display: inline-block;
+    background-color: cornflowerblue;
+    color: white;
+    list-style-position: outside;
+    display: inline-block;
+    
+}
+h2.castilla{
+    color: white;
+    text-align: center;
+}
+#rojo{
+    color: red;
+}
+#morado{
+    color: purple;
+}
+#verde{
+    color: green;
+}
+li.azul{
+    color: cornflowerblue;
+}
+/*
+ul{
+    list-style-position: outside;
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+}
+*/

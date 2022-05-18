@@ -1,0 +1,32 @@
+    
+    body{
+        background-color: aqua;
+        /*background-image: url("windows11.png");*/
+        background-repeat:repeat-y;
+        background-position: right bottom;
+        /*background-attachment: fixed;*/
+        background-attachment: scroll;
+        
+    }
+    /*
+    h3{
+        background-image: url("windows11.png");
+    }
+    */
+/*comentario*/
+
+    h1{
+        border:2px solid Tomato;
+        background-color:rgb(255, 99, 71);
+        opacity: 0.3;
+    }
+    
+    p{
+        border-style: solid;
+        border-width: 5px;
+    }
+
+    h2 {
+        border-style: dotted;
+        border-color: red green blue yellow;
+      }

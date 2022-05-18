@@ -1,0 +1,58 @@
+body{
+    background-color: #FFEDDB;
+}
+h1{
+    color: white;
+    text-align: center;
+}
+hr{
+    padding: 5px;
+    background-color: #E3B7A0;
+}
+#nombre{
+    background-color: #E3B7A0;
+    margin-left: 80px;
+    color: #EEEEEE;
+}
+#contrasena{
+    background-color: #E3B7A0;
+    margin-left: 60px;
+    color: #EEEEEE;
+}
+label.nombre{
+    color: black;
+    margin-left: 60px;
+}
+#nombre{
+    width: 300px;
+    height: 30px;
+}
+#contrasena{
+    width: 300px;
+    height: 30px;
+}
+h2{
+    color: #E3B7A0;
+    text-align: center;
+}
+
+fieldset, legend{
+    color:black;
+}
+input.margen{
+    margin-right: 80px;
+}
+#enviar{
+    width: 30%;
+    height: 50px;
+    margin-left: 160px;
+    color: #E3B7A0;
+    font-size: 40px;
+    
+}
+#enviar:hover{
+    background-color: purple;
+}
+#enviar:focus{
+    background-color: black;
+}
